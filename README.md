@@ -53,6 +53,19 @@ go run main.go
 
 A orientação específica está na [skill local pacotes-importantes-go](.github/skills/pacotes-importantes-go/SKILL.md), seguindo a organização da skill de Fundação.
 
+### Módulo 03 — Context
+
+O módulo [03 - Context](03%20-%20Context/README.md) contém cinco aulas completas: introdução aos contextos, conceitos básicos, contexto no servidor HTTP, contexto no cliente e WithValue.
+
+Os exemplos usam apenas a biblioteca padrão e funcionam sem internet. A aula 03 mantém um servidor local; a aula 04 inicia seu próprio servidor temporário. As aulas 02 a 05 incluem testes de comportamento. Consulte a [skill context-go](.github/skills/context-go/SKILL.md) para orientação de estudo.
+
+Para começar, partindo da raiz:
+
+```powershell
+cd "03 - Context\01 - Introdução aos contextos"
+go run main.go
+```
+
 ## Requisitos
 
 - [Go](https://go.dev/dl/) 1.18 ou superior instalado (a aula 20 usa generics)
