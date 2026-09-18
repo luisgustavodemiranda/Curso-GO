@@ -9,3 +9,9 @@ O verbo `%v` permite imprimir o valor sem conhecer seu tipo antecipadamente.
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Altere o formato para `"Valor: %v, tipo: %T\n"` e passe `valor` para os dois verbos.
+
+**Confira:** Os tipos das três chamadas devem aparecer como `string`, `int` e `bool`.

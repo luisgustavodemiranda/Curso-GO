@@ -2,15 +2,17 @@ package main
 
 import (
 	"fmt"
-	"net/http"
+
+	"github.com/google/uuid"
 )
 
 func main() {
-	requisicao, err := http.NewRequest(http.MethodGet, "https://example.com", nil)
+	id, err := uuid.Parse("550e8400-e29b-41d4-a716-446655440000")
 	if err != nil {
 		fmt.Println("Erro:", err)
 		return
 	}
 
-	fmt.Println(requisicao.Method, requisicao.URL.Host)
+	fmt.Println("UUID:", id)
+	fmt.Println("Versao:", id.Version())
 }

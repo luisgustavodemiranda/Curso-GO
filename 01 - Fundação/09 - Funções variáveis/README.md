@@ -9,3 +9,9 @@ O exemplo soma qualquer quantidade de números.
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Experimente `somar()` e depois `somar(10, 20, 30)`.
+
+**Confira:** Os resultados devem ser 0 e 60, respectivamente.

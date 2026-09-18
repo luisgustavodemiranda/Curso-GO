@@ -9,3 +9,9 @@ Essa abordagem favorece a reutilização sem criar uma hierarquia de classes.
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Acesse a cidade tanto por `pessoa.Cidade` quanto por `pessoa.Endereco.Cidade`.
+
+**Confira:** As duas expressões devem produzir `Recife`.

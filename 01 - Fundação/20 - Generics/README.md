@@ -78,3 +78,9 @@ true
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Experimente `maior(-3, -7)`, `igual("Go", "go")` e `Soma(MyNumber(2), MyNumber(5))`.
+
+**Confira:** Os resultados devem ser -3, false e 7.

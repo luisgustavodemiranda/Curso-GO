@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"strings"
+
+	"example.com/curso-go/aula22/saudacao"
 )
 
 func main() {
-	texto := "go e simples"
-	fmt.Println(strings.ToUpper(texto))
+	fmt.Println(saudacao.Mensagem("Ana"))
 }

@@ -9,3 +9,9 @@ Tipos próprios ajudam a dar significado aos dados e tornam o código mais claro
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Crie outro `Usuario` chamado Bruno, com `Ativo: false`, e imprima seus campos.
+
+**Confira:** A nova linha deve mostrar `Bruno false`.

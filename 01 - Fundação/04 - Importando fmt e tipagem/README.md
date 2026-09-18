@@ -9,3 +9,9 @@ Os verbos de formatação usados são `%s`, `%d`, `%.2f` e `%t`.
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Altere `altura` para 1.756 e mantenha `%.2f`.
+
+**Confira:** A altura deve aparecer como `1.76`.

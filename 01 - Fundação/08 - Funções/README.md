@@ -9,3 +9,9 @@ A assinatura informa os tipos dos parâmetros e do retorno.
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Chame `somar` com -4 e 6.
+
+**Confira:** O resultado deve ser 2.

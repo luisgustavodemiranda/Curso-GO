@@ -11,3 +11,9 @@ Este exemplo mostra a estrutura mínima de um programa Go.
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Troque a mensagem por uma apresentação com seu nome.
+
+**Confira:** O terminal deve mostrar exatamente o texto que você colocou entre aspas.

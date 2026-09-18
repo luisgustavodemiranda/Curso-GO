@@ -13,3 +13,9 @@ A atribuição `idade = 21` altera uma variável que já existe.
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Altere a atribuição final de `idade` para 22 e a cidade para Recife.
+
+**Confira:** A saída deve mostrar Maria, 22 e Recife, em linhas separadas.

@@ -9,3 +9,9 @@ O exemplo usa um ponteiro para alterar o número dentro da função.
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Chame `dobrar(&numero)` duas vezes antes de imprimir o número.
+
+**Confira:** O valor inicial 10 deve se tornar 40.

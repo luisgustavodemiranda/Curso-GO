@@ -9,3 +9,9 @@ Também é possível usar `for` como um `while` ou percorrer coleções com `ran
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Altere o limite do laço para somar de 1 a 10.
+
+**Confira:** a saída deve ser `Soma: 55`.

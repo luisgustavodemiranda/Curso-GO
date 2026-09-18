@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"path/filepath"
+
+	"example.com/curso-go/aula23/saudacao"
 )
 
 func main() {
-	caminho := filepath.Join("dados", "usuarios.txt")
-	fmt.Println(caminho)
+	fmt.Println(saudacao.Mensagem("Ana"))
 }

@@ -9,3 +9,9 @@ O exemplo atualiza uma configuração recebida por ponteiro.
 ```powershell
 go run main.go
 ```
+
+## Desafio prático
+
+Compare a função atual com outra que receba `Configuracao` por valor e altere `Nome`. Execute cada uma sobre uma configuração nova.
+
+**Confira:** A versão por valor mantém o original como `teste`; a versão por ponteiro muda o original para `producao`.
