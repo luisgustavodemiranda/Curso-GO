@@ -1,0 +1,7 @@
+{{define "pagina"}}<!doctype html>
+<html lang="pt-BR"><meta charset="utf-8"><title>{{.Titulo}}</title><body>
+{{template "cabecalho" .}}
+<main>Ola, {{.Nome}}!</main>
+{{template "rodape" .}}
+</body></html>
+{{end}}
