@@ -116,6 +116,8 @@ Em um editor que suporte agentes personalizados de `.github/agents`, também é 
 
 A criação acontece durante a conversa com o assistente. A imagem define o roteiro; os exemplos são didáticos e próprios, não transcrições dos vídeos. Itens de referência recebem documentação, sem um programa artificial. Commit e push são feitos quando solicitados.
 
+A esteira reutiliza scripts PowerShell para criar pastas e índices e verificar estrutura, links locais, formatação e testes existentes. Os comandos estão na skill; o código dos exemplos e suas explicações continuam sendo elaborados pelo assistente. O validador mostra um resumo quando tudo passa e detalhes nas falhas.
+
 ## Repositório
 
 O código está disponível em:
